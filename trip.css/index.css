@@ -1,0 +1,92 @@
+body {
+    background-image: url("/Media/pexels-pawan-yadav-1321878-2577274.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    
+}
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+    margin-right:2.2%;
+    padding: 1em 1.5em;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+}
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 1;
+    padding: 0.3em 1em; 
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+/* Centered main heading */
+h1.main-heading {
+    text-align: left;
+    width:fit-content;
+    display: inline;
+    color: white;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 2.5em;
+}
+/* Button at the bottom */
+.register-button {
+    margin-left: 76%;
+    position:relative;
+    padding:0.5em 1.0em;
+    background-color:#e64a19;
+    color:white;
+    text-decoration: none;
+}
+ .register-button:hover {
+    background-color: #e64a19;
+    margin-bottom: 10px;
+}
+.sign-in{
+    text-align: right; 
+    position: absolute;
+    bottom: 28px;
+    right: 3%;
+    color:black;
+    padding: 1em 2em;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.sign-in a{
+    color: rgb(233, 22, 22);
+}
+#small-image{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-left: 70%;
+    margin-bottom: 10px;
+    z-index: -1;
+}
+.tagline{
+    text-align: relative;
+    display: inline;
+    color: white;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 0.9em;
+}

@@ -1,0 +1,55 @@
+        body{
+           background-image: url('/Media/pexels-quang-nguyen-vinh-222549-2178175.jpg');
+        }
+        .form{
+            display:flex;
+            justify-content: center;
+            align-items: normal;
+            min-height: 40vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Form container styling */
+        .login-form {
+            background-color: transparent;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        /* Styling the input fields and labels */
+        .login-form h2{
+            margin-bottom: 10px;
+            text-align: center;
+            color: #333;
+        }
+
+        .login-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* Submit button styling */
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+        }
